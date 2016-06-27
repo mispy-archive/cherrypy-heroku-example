@@ -1,10 +1,10 @@
 # cherrypy-heroku-example
 
-A very minimal template that can be used for doing quick web prototyping in Python. 
+A very minimal example that can be used for doing quick web prototyping in Python. 
 
 ## About
 
-This is especially designed for people who have an understanding of Python but are new to web development in particular. It can be difficult to decide on components and frameworks so that you can get down to coding. This template uses [cherrypy](http://www.cherrypy.org/) for the webserver, [jinja2](http://jinja.pocoo.org/docs/dev/) for html templating, and provides a Procfile so that it can be immediately deployed on [Heroku](https://heroku.com).
+This is especially designed for people who have an understanding of Python but are new to web development in particular. It can be difficult to decide on components and frameworks so that you can get down to coding. This example uses [cherrypy](http://www.cherrypy.org/) for the webserver, [jinja2](http://jinja.pocoo.org/docs/dev/) for html rendering, and provides a Procfile so that it can be immediately deployed on [Heroku](https://heroku.com).
 
 ## Setting up locally
 

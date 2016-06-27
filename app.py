@@ -6,8 +6,8 @@ env = Environment(loader=FileSystemLoader('html'))
 class HelloWorld(object):
     @cherrypy.expose
     def index(self):
-        tmpl = env.get_template('index.html')
         data_to_show = ['Hello', 'world']
+        tmpl = env.get_template('index.html')
         return tmpl.render(data=data_to_show)
 
 config = {
