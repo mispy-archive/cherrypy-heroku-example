@@ -7,8 +7,8 @@ class HelloWorld(object):
     @cherrypy.expose
     def index(self):
         tmpl = env.get_template('index.html')
-        data_to_show = ['foo', 'bar', 'etc']
-        return tmpl.render(data=data_to_show);
+        data_to_show = ['Hello', 'world']
+        return tmpl.render(data=data_to_show)
 
 config = {
     'global': {
@@ -21,4 +21,5 @@ config = {
         'tools.staticdir.dir': 'assets',
     }
 }
+
 cherrypy.quickstart(HelloWorld(), '/', config=config)
