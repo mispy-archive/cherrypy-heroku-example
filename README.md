@@ -11,7 +11,7 @@ This is especially designed for people who have an understanding of Python but a
 Make sure you have [Python](https://www.python.org/) and [pip](https://pip.pypa.io/en/stable/installing/) installed.
 
 ```bash
-git clone git@github.com:mispy/cherrypy-heroku-example.git
+git clone https://github.com/mispy/cherrypy-heroku-example.git
 cd cherrypy-heroku-example
 pip install -r requirements.txt
 python app.py
